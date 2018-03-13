@@ -7,5 +7,27 @@
  *
  */
 public class SingleNumber {
-
+	
+	// Attributs
+	int[] array;
+	int[] count;
+	
+	public int singleNumber(int[] nums) {
+		
+		int i = 0;
+		
+		countNumberOccurences(nums);
+		
+		while (count[i] != 1) {
+			
+			i++;
+		}
+		
+		return 
+	}
+	
+	public int countNumberOccurences(int[] array) {
+		
+		
+	}
 }
