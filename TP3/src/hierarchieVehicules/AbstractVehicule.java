@@ -3,7 +3,7 @@
  * implémente l'interface InterfaceVehicules.
  * 
  * @author Jason Narrainen
- * @version 20/03/2018
+ * @version 21/03/2018
  */
 package hierarchieVehicules;
 
@@ -27,13 +27,13 @@ public abstract class AbstractVehicule implements InterfaceVehicules{
 	}
 	
 	// Cette méthode accède à l'attribut carburant et le retourne.
-	public int getCarburant() {
+	public int getTypeCarburant() {
 		
 		return carburant;
 	}
 	
 	// Cette méthode modifie la valeur de l'attribut carburant.
-	public void setCarburant(int carburant) {
+	public void setTypeCarburant(int carburant) {
 		
 		this.carburant = carburant;
 	}
