@@ -26,4 +26,13 @@ public class GreyHoundG4500 extends AbstractAutobus{
 		
 		return nbPassagersMax;
 	}
+	
+	/*************************************************************************
+	 * Cette méthode renvoie une chaîne de caractère contenant le modèle du 
+	 * véhicule.
+	 */
+	public String toString(){
+		
+		return "GreyHoundG4500";
+	}
 }

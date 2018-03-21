@@ -17,7 +17,7 @@ public interface InterfaceVehicules {
 	
 	// Les noms de type de carburant.
 	public final String [] tabNomTypeCarburant =
-									{"Essence", "Kérosène", "Électricité"};
+									{"Essence", "Kerosene", "electricite"};
 	/**
 	 *  Accesseur du type de carburant qu'un véhicule doit fournir
 	 *  

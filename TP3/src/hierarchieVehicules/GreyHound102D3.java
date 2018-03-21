@@ -26,4 +26,13 @@ public class GreyHound102D3 extends AbstractAutobus{
 		
 		return nbPassagersMax;
 	}
+	
+	/*************************************************************************
+	 * Cette méthode renvoie une chaîne de caractère contenant le modèle du 
+	 * véhicule.
+	 */
+	public String toString(){
+		
+		return "GreyHound102D3";
+	}
 }
