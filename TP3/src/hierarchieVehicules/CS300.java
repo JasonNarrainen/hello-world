@@ -25,4 +25,13 @@ public class CS300 extends AbstractAvion{
 		
 		return nbPassagersMax;
 	}
+	
+	/*************************************************************************
+	 * Cette méthode renvoie une chaîne de caractère contenant le modèle du 
+	 * véhicule.
+	 */
+	public String toString(){
+		
+		return "CS300";
+	}	
 }
